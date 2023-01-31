@@ -10,5 +10,5 @@ as we worked. We used React and Redux.
 
 ## View it live
 
-https://that70squiz.netlify.app/
+https://reduxquiz-mariawestling.netlify.app/
 

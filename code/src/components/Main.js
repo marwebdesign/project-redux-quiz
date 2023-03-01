@@ -12,8 +12,6 @@ const Main = () => {
   const dispatch = useDispatch()
   const quizOver = useSelector((store) => store.quiz.quizOver);
   const currentQuestion = useSelector((state) => state.quiz.currentQuestionIndex)
-  console.log(quizOver)
-  console.log(currentQuestion)
 
   const onRestart = () => {
     dispatch(quiz.actions.restart());

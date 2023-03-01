@@ -14,7 +14,7 @@ const Footer = () => {
 export default Footer;
 
 export const FooterWrapper = styled.header`
-display: flex;
+  display: flex;
   height: 20vh;
   background-color: #F26A3A;
   border: 15px dotted #A5D8C5;

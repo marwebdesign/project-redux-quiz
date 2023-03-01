@@ -9,8 +9,6 @@ export const Header = () => {
   );
 };
 
-// Styling of header
-
 export const HeaderWrapper = styled.header`
   height: 20vh;
   min-height: 150px;
@@ -25,7 +23,6 @@ export const HeaderWrapper = styled.header`
   padding-top: 2rem;
   height: 20vh;
   font-size: 1.4rem;
-
 } 
 
 /* DESKTOP */
@@ -36,8 +33,6 @@ export const HeaderWrapper = styled.header`
   border: 10px dotted #A5D8C5;
   text-align: center;
   font-size: 2.2rem;
-
 } 
-
 `;
 

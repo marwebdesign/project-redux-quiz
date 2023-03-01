@@ -6,8 +6,6 @@ import styled from 'styled-components/macro'
 export const CurrentQuestion = () => {
   const question = useSelector((store) => store.quiz.questions[store.quiz.currentQuestionIndex])
   const wholeStore = useSelector((store) => store)
-  console.log(wholeStore);
-  console.log(question);
 
   /* A fetch of the answers to each question */
   const answer = useSelector(
